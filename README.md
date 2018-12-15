@@ -22,7 +22,7 @@
 
 #### 运行效果：
 欢迎界面+加主界面
-![欢迎界面+加主界面](https://github.com/Cqh-i/MyMemos/blob/master/%E8%BF%90%E8%A1%8C%E6%95%88%E6%9E%9C%E5%9B%BE/%E6%AC%A2%E8%BF%8E%E7%95%8C%E9%9D%A2%2B%E5%8A%A0%E4%B8%BB%E7%95%8C%E9%9D%A2.gif =460x938)
+![欢迎界面+加主界面](https://raw.githubusercontent.com/Cqh-i/MyMemos/master/%E8%BF%90%E8%A1%8C%E6%95%88%E6%9E%9C%E5%9B%BE/%E6%AC%A2%E8%BF%8E%E7%95%8C%E9%9D%A2%2B%E5%8A%A0%E4%B8%BB%E7%95%8C%E9%9D%A2.gif=460x938)
 按日期查询+长按删除+再编辑
 ![按日期查询+长按删除+再编辑](https://img-blog.csdnimg.cn/20181215213359692.gif =460x938)
 
