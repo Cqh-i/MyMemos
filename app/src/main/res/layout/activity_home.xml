@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--DrawerLayout第一个控件-->
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/content_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--标题栏-->
+        <include layout="@layout/title" />
+
+        <LinearLayout
+            android:id="@+id/to_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical">
+            <!--信息栏：包括完成和未完成事项、悬浮按钮-->
+            <!--<include layout="@layout/box_top" />-->
+        </LinearLayout>
+
+        <com.ashokvarma.bottomnavigation.BottomNavigationBar
+            android:id="@+id/bottom_navigation_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" />
+    </android.support.design.widget.CoordinatorLayout>
+    <!--DrawerLayout第二个控件-->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:menu="@menu/nav_menu" />
+</android.support.v4.widget.DrawerLayout>

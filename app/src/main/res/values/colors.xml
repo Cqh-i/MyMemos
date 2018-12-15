@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#CD5555</color>
+    <color name="black">#000000</color>
+    <color name="gray">#969696</color>
+    <color name="white">#ffffff</color>
+
+    <!--下面属性引用自开源项目icarus-android-->
+    <color name="button_enabled">#333333</color>
+    <color name="button_disabled">#eeeeee</color>
+    <color name="button_activated">#428bca</color>
+    <color name="button_deactivated">@color/button_enabled</color>
+
+</resources>

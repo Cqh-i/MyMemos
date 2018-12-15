@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- TODO: Update blank fragment layout -->
+
+        <com.mymemosproject.www.mymemos.WidgetFunction.BoxTopEvent
+            android:id="@+id/all_memos_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.mymemosproject.www.mymemos.WidgetFunction.BoxTopEvent>
+
+        <include
+            android:id="@+id/list_view_take3"
+            layout="@layout/memos_content_circle_list" />
+</LinearLayout>

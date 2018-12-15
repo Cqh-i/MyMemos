@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/edit_title"
+        layout="@layout/title" />
+
+    <EditText
+        android:id="@+id/title_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:gravity="left"
+        android:hint="@string/title_hint"
+        android:lines="1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:textCursorDrawable="@null" />
+
+    <TextView
+        android:id="@+id/date_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="left"
+        android:hint="@string/date_create_hint" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:switchMinWidth="40dp"
+            android:text="完成状态"
+            android:textColor="@color/gray" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></LinearLayout>
+        <Spinner
+            android:id="@+id/Spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/editor"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_weight="99"
+        android:gravity="center" />
+
+    <HorizontalScrollView
+        style="@style/EditorIcon"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/button_bold"
+                style="@style/EditorIcon"
+                android:text="@string/icon_bold" />
+
+            <TextView
+                android:id="@+id/button_list_ol"
+                style="@style/EditorIcon"
+                android:text="@string/icon_list_ol" />
+
+            <TextView
+                android:id="@+id/button_list_ul"
+                style="@style/EditorIcon"
+                android:text="@string/icon_list_ul" />
+
+            <TextView
+                android:id="@+id/button_blockquote"
+                style="@style/EditorIcon"
+                android:text="@string/icon_blockquote" />
+
+            <TextView
+                android:id="@+id/button_hr"
+                style="@style/EditorIcon"
+                android:text="@string/icon_hr" />
+
+            <TextView
+                android:id="@+id/button_align_left"
+                style="@style/EditorIcon"
+                android:text="@string/icon_align_left" />
+
+            <TextView
+                android:id="@+id/button_align_center"
+                style="@style/EditorIcon"
+                android:text="@string/icon_align_center" />
+
+            <TextView
+                android:id="@+id/button_align_right"
+                style="@style/EditorIcon"
+                android:text="@string/icon_align_right" />
+
+            <TextView
+                android:id="@+id/button_italic"
+                style="@style/EditorIcon"
+                android:text="@string/icon_italic" />
+
+            <TextView
+                android:id="@+id/button_indent"
+                style="@style/EditorIcon"
+                android:text="@string/icon_indent" />
+
+            <TextView
+                android:id="@+id/button_outdent"
+                style="@style/EditorIcon"
+                android:text="@string/icon_outdent" />
+
+            <TextView
+                android:id="@+id/button_math"
+                style="@style/EditorIcon"
+                android:text="@string/icon_code" />
+
+            <TextView
+                android:id="@+id/button_underline"
+                style="@style/EditorIcon"
+                android:text="@string/icon_underline" />
+
+            <TextView
+                android:id="@+id/button_strike_through"
+                style="@style/EditorIcon"
+                android:text="@string/icon_strike_through" />
+
+            <TextView
+                android:id="@+id/button_font_scale"
+                style="@style/EditorIcon"
+                android:text="@string/icon_font" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

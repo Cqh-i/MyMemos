@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MyMemos</string>
+    <string name="banquan">Copyright © 2018 Cqh_i. All rights reserved. </string>
+    <string name="nav_hint">记录您身边重要的事！</string>
+    <string name="title_hint">标题</string>
+    <string name="date_create_hint">创建时间</string>
+    <string name="version">版本:v1.0.0</string>
+    <string name="mymemos_instructions">\t\tMyMemos是 GDUFE 信院16届SE陈群辉(Cqh_i)的课设作品, 包含了备忘录的基本功能，支持富文本编辑以及对备忘录进行分类，检索，按日期查询等等。</string>
+    <string name="mail_about">\t\tcqh_i@foxmail.com</string>
+    <string name="code_about">\t\thttps://github.com/Cqh-i</string>
+    <string name="update_info">\t\t2018-12-09\n\t\t基本完成备忘录的基本功能\n\n\t\t2018-12-14 v1.0.0\n\t\tv1.0.0正式版上线\n\t\t1.优化切换动画\n\t\t2.增加关于界面</string>
+    <!--下面属性引用自开源项目icarus-android-->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_get_content">Get content</string>
+    <string name="action_set_content">Set content</string>
+
+    <string name="icon_code">&#xf000;</string>
+    <string name="icon_bold">&#xf001;</string>
+    <string name="icon_italic">&#xf002;</string>
+    <string name="icon_underline">&#xf003;</string>
+    <string name="icon_times">&#xf004;</string>
+    <string name="icon_strike_through">&#xf005;</string>
+    <string name="icon_list_ol">&#xf006;</string>
+    <string name="icon_list_ul">&#xf007;</string>
+    <string name="icon_quote_left">&#xf008;</string>
+    <string name="icon_blockquote">@string/icon_quote_left</string>
+    <string name="icon_table">&#xf009;</string>
+    <string name="icon_link">&#xf00a;</string>
+    <string name="icon_image">&#xf00b;</string>
+    <string name="icon_minus">&#xf00c;</string>
+    <string name="icon_hr">@string/icon_minus</string>
+    <string name="icon_indent">&#xf00d;</string>
+    <string name="icon_outdent">&#xf00e;</string>
+    <string name="icon_unlink">&#xf00f;</string>
+    <string name="icon_caret_down">&#xf010;</string>
+    <string name="icon_caret_right">&#xf011;</string>
+    <string name="icon_upload">&#xf012;</string>
+    <string name="icon_undo">&#xf013;</string>
+    <string name="icon_smile_o">&#xf014;</string>
+    <string name="icon_tint">&#xf015;</string>
+    <string name="icon_font">&#xf016;</string>
+    <string name="icon_html5">&#xf017;</string>
+    <string name="icon_mark">&#xf018;</string>
+    <string name="icon_align_center">&#xf019;</string>
+    <string name="icon_align_left">&#xf01a;</string>
+    <string name="icon_align_right">&#xf01b;</string>
+    <string name="icon_font_minus">&#xf01c;</string>
+    <string name="icon_font_markdown">&#xf01d;</string>
+    <string name="icon_checklist">&#xf01e;</string>
+
+</resources>

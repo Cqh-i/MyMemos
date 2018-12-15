@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item
+        android:id="@+id/finish_edit"
+        android:icon="@drawable/baseline_check_circle_white_36"
+        android:title="finish"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cancel_edit"
+        android:icon="@drawable/baseline_cancel_white_36"
+        android:title="finish"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_refresh" android:title="刷新"
+        android:orderInCategory="100" />
+    <item android:id="@+id/action_set_content" android:title="使用说明"
+        android:orderInCategory="100" />
+</menu>

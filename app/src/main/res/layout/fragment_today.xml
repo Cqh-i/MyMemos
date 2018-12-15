@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!-- TODO: Update blank fragment layout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/box_top" />
+    </LinearLayout>-->
+    <com.mymemosproject.www.mymemos.WidgetFunction.BoxTopEvent
+        android:id="@+id/tb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.mymemosproject.www.mymemos.WidgetFunction.BoxTopEvent>
+
+    <include
+        android:id="@+id/list_view_take"
+        layout="@layout/memos_content_circle_list" />
+</LinearLayout>

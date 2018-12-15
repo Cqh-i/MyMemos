@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/baseline_add_black_48"
+            android:title="全部" />
+        <item
+            android:id="@+id/nav_work"
+            android:icon="@drawable/baseline_add_black_48"
+            android:title="工作" />
+        <item
+            android:id="@+id/nav_life"
+            android:icon="@drawable/baseline_add_black_48"
+            android:title="生活" />
+        <item
+            android:id="@+id/nav_study"
+            android:icon="@drawable/baseline_add_black_48"
+            android:title="学习" />
+    </group>
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/about_mymemos"
+                android:icon="@drawable/baseline_info_white_36"
+                android:title="关于" />
+            <item
+                android:id="@+id/exit_mymemos"
+                android:icon="@drawable/baseline_exit_to_app_white_36"
+                android:title="退出" />
+        </menu>
+    </item>
+</menu>
