@@ -11,15 +11,15 @@
  Thanks to
  
 
-> implementation 'com.android.support:design:27.1.1'
-    implementation 'de.hdodenhof:circleimageview:2.2.0'
-    implementation 'com.ashokvarma.android:bottom-navigation-bar:2.1.0'
-    implementation 'com.github.mr5:icarus:0.1.14'
-    implementation 'org.litepal.android:java:3.0.0'
-    implementation 'com.github.codbking:PickTime:v1.0.1'
-    implementation 'com.carson_ho:SearchLayout:1.0.1'
+> implementation 'com.android.support:design:27.1.1'<br>
+    implementation 'de.hdodenhof:circleimageview:2.2.0'<br>
+    implementation 'com.ashokvarma.android:bottom-navigation-bar:2.1.0'<br>
+    implementation 'com.github.mr5:icarus:0.1.14'<br>
+    implementation 'org.litepal.android:java:3.0.0'<br>
+    implementation 'com.github.codbking:PickTime:v1.0.1'<br>
+    implementation 'com.carson_ho:SearchLayout:1.0.1'<br>
     
-    https://blog.csdn.net/a287574014/article/details/73827120
+    https://blog.csdn.net/a287574014/article/details/73827120<br>
 
 #### 运行效果：
 欢迎界面+加主界面</br>
