@@ -36,8 +36,8 @@
 关于界面</br>
 ![关于界面](https://raw.githubusercontent.com/Cqh-i/MyMemos/master/%E8%BF%90%E8%A1%8C%E6%95%88%E6%9E%9C%E5%9B%BE/%E5%85%B3%E4%BA%8E%E7%95%8C%E9%9D%A2.gif)</br>
 
-获取apk:
-地址一：链接: https://pan.baidu.com/s/1AMO0zSdr27nQLE_MwxuMDQ 提取码: 7hcf 
-Github地址：
-https://github.com/Cqh-i/MyMemos 
+获取apk:<br>
+地址一：链接: https://pan.baidu.com/s/1AMO0zSdr27nQLE_MwxuMDQ 提取码: 7hcf <br>
+Github地址：<br>
+https://github.com/Cqh-i/MyMemos <br>
 (喜欢的话，给个star哟)
