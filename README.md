@@ -19,7 +19,7 @@
     implementation 'com.github.codbking:PickTime:v1.0.1'<br>
     implementation 'com.carson_ho:SearchLayout:1.0.1'<br>
     
-    https://blog.csdn.net/a287574014/article/details/73827120<br>
+    https://blog.csdn.net/a287574014/article/details/73827120
 
 #### 运行效果：
 欢迎界面+加主界面</br>
