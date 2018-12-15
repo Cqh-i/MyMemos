@@ -38,3 +38,6 @@
 
 获取apk:
 地址一：链接: https://pan.baidu.com/s/1AMO0zSdr27nQLE_MwxuMDQ 提取码: 7hcf 
+Github地址：
+https://github.com/Cqh-i/MyMemos 
+(喜欢的话，给个star哟)
