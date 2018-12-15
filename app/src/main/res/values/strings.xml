@@ -7,7 +7,7 @@
     <string name="version">版本:v1.0.0</string>
     <string name="mymemos_instructions">\t\tMyMemos是 GDUFE 信院16届SE陈群辉(Cqh_i)的课设作品, 包含了备忘录的基本功能，支持富文本编辑以及对备忘录进行分类，检索，按日期查询等等。</string>
     <string name="mail_about">\t\tcqh_i@foxmail.com</string>
-    <string name="code_about">\t\thttps://github.com/Cqh-i</string>
+    <string name="code_about">\t\thttps://github.com/Cqh-i/MyMemos</string>
     <string name="update_info">\t\t2018-12-09\n\t\t基本完成备忘录的基本功能\n\n\t\t2018-12-14 v1.0.0\n\t\tv1.0.0正式版上线\n\t\t1.优化切换动画\n\t\t2.增加关于界面</string>
     <!--下面属性引用自开源项目icarus-android-->
     <string name="hello_world">Hello world!</string>
