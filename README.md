@@ -22,8 +22,10 @@
     https://blog.csdn.net/a287574014/article/details/73827120
 
 #### 运行效果：
-欢迎界面+加主界面</br>
-![欢迎界面+加主界面](https://raw.githubusercontent.com/Cqh-i/MyMemos/master/%E8%BF%90%E8%A1%8C%E6%95%88%E6%9E%9C%E5%9B%BE/%E6%AC%A2%E8%BF%8E%E7%95%8C%E9%9D%A2%2B%E5%8A%A0%E4%B8%BB%E7%95%8C%E9%9D%A2.gif)</br>
+<p align="center">
+        欢迎界面 +加主界面<br>
+        <img src="https://raw.githubusercontent.com/Cqh-i/MyMemos/master/%E8%BF%90%E8%A1%8C%E6%95%88%E6%9E%9C%E5%9B%BE/%E6%AC%A2%E8%BF%8E%E7%95%8C%E9%9D%A2%2B%E5%8A%A0%E4%B8%BB%E7%95%8C%E9%9D%A2.gif"  width="230" height="469">
+</p>
 按日期查询+长按删除+再编辑</br>
 ![按日期查询+长按删除+再编辑](https://raw.githubusercontent.com/Cqh-i/MyMemos/master/%E8%BF%90%E8%A1%8C%E6%95%88%E6%9E%9C%E5%9B%BE/%E6%8C%89%E6%97%A5%E6%9C%9F%E6%9F%A5%E8%AF%A2%2B%E9%95%BF%E6%8C%89%E5%88%A0%E9%99%A4%2B%E5%86%8D%E7%BC%96%E8%BE%91.gif)</br>
 
